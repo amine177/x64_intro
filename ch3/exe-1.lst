@@ -1,0 +1,8 @@
+     1                                 %line 1+1 exe-1.S
+     2                                 [segment .data]
+     3 00000000 00<rept>                array1 times 10 db 0
+     4 0000000A 4120737472696E6700      string db "A string", 0
+     5                                 [segment .bss]
+     6 00000000 <gap>                   array2 resw 5
+     7                                 
+     8                                 

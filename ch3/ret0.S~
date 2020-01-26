@@ -1,0 +1,12 @@
+	segment .data
+a 	dd 	4
+b 	dd 	4.4
+c 	times 	10
+d	dw 	1, 2
+e	db	0xfb
+f	db 	"hello, world!", 0
+
+	segment .bss
+	
+	
+	

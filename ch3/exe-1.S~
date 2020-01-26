@@ -1,0 +1,4 @@
+	segment .data
+	array times 10, db 0
+	segment .bss
+	
